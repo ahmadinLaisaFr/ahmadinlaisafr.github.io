@@ -1,0 +1,26 @@
+body {
+  background-image: url("img/bg.jpg");
+}
+
+.kotak {
+  display: flex;
+  align-items: middle;
+}
+
+.profile-picture{
+    height: 200px;
+    width: 230px;
+}
+
+#home{
+    background-color: var(--bg-ijo-pucat);
+}
+
+#interest{
+    background-color: var(--bg-ijo-pucat);
+}
+
+.card{
+  margin-left: 30px;
+  margin-right: 30px;
+}
