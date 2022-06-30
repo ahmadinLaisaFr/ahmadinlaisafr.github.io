@@ -1,5 +1,7 @@
 body {
   background-image: url("img/bg.jpg");
+  padding: 0;
+  margin: 0;
 }
 
 .kotak {
@@ -8,19 +10,48 @@ body {
 }
 
 .profile-picture{
-    height: 200px;
-    width: 230px;
+  height: 200px;
+  width: 230px;
 }
 
 #home{
-    background-color: var(--bg-ijo-pucat);
+  background-color: var(--bg-ijo-pucat);
 }
 
 #interest{
-    background-color: var(--bg-ijo-pucat);
+  background-color: var(--bg-ijo-pucat);
+}
+
+#about{
+  padding-bottom: 80px;
+}
+
+#about h4.text-center{
+  padding-top: 80px;
+}
+
+#interest h4{
+  padding-top: 40px;
+}
+
+#interest{
+  padding-bottom: 80px;
 }
 
 .card{
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.card-interest{
+  margin-top: 5rem;
+}
+
+#footer{
+  padding-top: 40px;
+  height: 100px;
+}
+
+#disclaimer{
+  font-size: 14px;
 }
